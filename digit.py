@@ -7,9 +7,11 @@ def install(package_name):
 
         pip.main(['install', package_name])
 
-    else:
+    elif:
 
         pip._internal.main(['install', package_name])
+    else:
+        print('0")
 
 
 install('requests')
